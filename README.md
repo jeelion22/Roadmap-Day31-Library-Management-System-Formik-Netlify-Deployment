@@ -18,13 +18,17 @@ The home page contains an inventory about the available books with author names.
 
 ## Images
 
-The below images are about how our web application looks like looks like.
+The below images are about how our web application looks like.
 
 ![Homepage](/src/assets/img1.png)
-![ALL Courses](/src/assets/img2.png)
-![Fullstack Courses](/src/assets/img3.png)
-![Datascience Courses](/src/assets/img4.png)
-![Cybersecurity Courses](/src/assets/img5.png)
+
+![Books page](/src/assets/img2.png)
+
+![Add books page](/src/assets/img3.png)
+
+![Authors page](/src/assets/img4.png)
+
+![Edit book page](/src/assets/img5.png)
 
 ## Installation
 
