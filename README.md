@@ -1,8 +1,41 @@
-# React + Vite
+# React Router Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this web application; Library Management Sysem, all CRUD operations related to books and authors information can be done.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Project Images](#Images)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Introduction
+
+The home page contains an inventory about the available books with author names. The books page contains all the available books currently in the library where users can remove or update book's information. The next AddBook page where we can add new books to our library. the final page is about list of authors, where we can manage authors name.
+
+[Netlify Deployment link](https://beautiful-trifle-bc8ef6.netlify.app/)
+
+## Images
+
+The below images are about how our web application looks like looks like.
+
+![Homepage](/src/assets/img1.png)
+![ALL Courses](/src/assets/img2.png)
+![Fullstack Courses](/src/assets/img3.png)
+![Datascience Courses](/src/assets/img4.png)
+![Cybersecurity Courses](/src/assets/img5.png)
+
+## Installation
+
+No installation is required except a latest web browser.
+
+## Usage
+
+The webpage is a reference for the how to work with formik and react router dom
+
+## License
+
+MIT License
+
+---
