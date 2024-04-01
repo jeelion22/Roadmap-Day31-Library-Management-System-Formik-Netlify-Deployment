@@ -47,7 +47,7 @@ function Editauthor() {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-md-12">
-          <h4 className="mt-5 text-center">Edit Book Details</h4>
+          <h4 className="mt-5 text-center">Edit Author Details</h4>
 
           <div className="form shadow-lg">
             <form
