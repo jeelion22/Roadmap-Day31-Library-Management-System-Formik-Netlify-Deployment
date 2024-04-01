@@ -1,10 +1,27 @@
 import React from "react";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import BooksContext from "./BookContext";
 import Author from "./Author";
+import axios from "axios";
 
 function Authors() {
-  const { books } = useContext(BooksContext);
+  const { books, setBooks } = useContext(BooksContext);
+
+  const getAPIData = async () => {
+    try {
+      const response = await axios.get(
+        "https://6606ab44be53febb857e657e.mockapi.io/books"
+      );
+
+      setBooks(response.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getAPIData();
+  }, [books]);
 
   return (
     <div className="container">

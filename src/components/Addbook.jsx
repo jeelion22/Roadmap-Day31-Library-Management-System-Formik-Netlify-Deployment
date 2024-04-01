@@ -63,7 +63,7 @@ function Addbook() {
       <div className="form">
         <form
           onSubmit={formik.handleSubmit}
-          className=" m-5 shadow-lg p-5 rounded-width text-end flex-wrap"
+          className=" m-5 shadow-lg p-5 rounded-width text-end flex-wrap text-wrap "
           style={{ width: "85%" }}
         >
           <div className="mb-3 row">

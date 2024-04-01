@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
-import Books from "./Books";
-import Addbook from "./Addbook";
-import Authors from "./Authors";
+import Navbar from "./components/Navbar";
+import Books from "./components/Books";
+import Addbook from "./components/Addbook";
+import Authors from "./components/Authors";
 
-import { BooksProvider } from "./BookContext";
-import Editbook from "./Editbook";
-import Home from "./Home";
-import Editauthor from "./Editauthor";
+import { BooksProvider } from "./components/BookContext";
+import Editbook from "./components/Editbook";
+import Home from "./components/Home";
+import Editauthor from "./components/Editauthor";
 
 function App() {
   return (

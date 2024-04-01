@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
-import "./styles/Navbar.css";
+import "../styles/Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg ">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg text-wrap flex-wrap ">
+      <div className="container-fluid flex-wrap">
         <Link to={"/"} className="navbar-brand">
           <i className="fa-solid  fa-book-open-reader fa-2x "></i>
-          <span className="ms-2 text-white">E-Library Managment</span>
+          <span className="ms-2 text-white text-wrap">E-Library Managment</span>
         </Link>
 
         <button
